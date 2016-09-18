@@ -1,14 +1,14 @@
 body {
-    background-color: #027af5;
     text-align: center;
     vertical-align: middle;
+    background-color: blue;
 }
 h1 {
     font-family: Futura
-    color: #09f1d8;
+    color: #ffff00;
 }
 p {
-    color: #09f1d8;
+    color: #ffff00;
     font-size: 17px;
     font-weight: normal;
     font-family: Futura;
@@ -19,7 +19,7 @@ p {
 }
 
 p1 {
-    color: #09f1d8;
+    color: #ffff00;
     font-size: 13px;
     font-weight: normal;
     font-family: Futura;
@@ -30,7 +30,7 @@ p1 {
 }
 
 p2 {
-    color: #09f1d8;
+    color: #ffff00;
     font-size: 13px;
     font-weight: normal;
     font-family: Futura;
@@ -43,7 +43,7 @@ p2 {
     color: orange;
 }
 a {
-color: #09f1d8;
+color: #ffff00;
 text-decoration: none;
 }
 
