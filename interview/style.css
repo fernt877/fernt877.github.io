@@ -23,7 +23,7 @@ a {
     position: relative;
     bottom: -88px;
     left:5;
-    font-family: Futura;
+    font-family: Futura, sans-serif;
 }
 img {
     position: relative;
