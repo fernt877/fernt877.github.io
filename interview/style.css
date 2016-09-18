@@ -27,11 +27,16 @@ a {
 }
 #clouds {
     position: relative;
-    bottom:-10;
-    width:150;
-    left:30;
+    bottom:-170;
+    width:200;
+    left:310;
 }
-
+#cloud2 {
+    position: relative;
+    bottom: -250;
+    width:100;
+    left:690;
+}
 
 img {
     position: relative;
