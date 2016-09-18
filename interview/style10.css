@@ -19,7 +19,7 @@ p1 {
     font-weight: normal;
     font-family: Futura;
     position: relative;
-    left:170;
+    left:290;
     margin: 10;
     vertical-align: middle;
     text-align: center;
@@ -39,6 +39,6 @@ a {
 img {
     position: relative;
     bottom: -65px;
-    right: -30;
+    right: 416;
     width: 60;
 }

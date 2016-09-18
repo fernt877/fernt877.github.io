@@ -19,10 +19,8 @@ p1 {
     font-weight: normal;
     font-family: Futura;
     position: relative;
-    left:170;
-    margin: 10;
-    vertical-align: middle;
-    text-align: center;
+    margin: 500;
+    right: 10;
 }
 a {
     color: #FFEC2A;
@@ -38,7 +36,7 @@ a {
 }
 img {
     position: relative;
-    bottom: -65px;
-    right: -30;
+    bottom: -57px;
+    right: 517;
     width: 60;
 }

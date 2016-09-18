@@ -25,6 +25,14 @@ a {
     left:5;
     font-family: Futura, sans-serif;
 }
+#clouds {
+    position: relative;
+    bottom:-10;
+    width:150;
+    left:30;
+}
+
+
 img {
     position: relative;
     bottom: -150px;

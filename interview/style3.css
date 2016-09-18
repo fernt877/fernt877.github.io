@@ -22,7 +22,7 @@ p1 {
     left:170;
     margin: 10;
     vertical-align: middle;
-       text-align: center;
+    text-align: center;
 }
 a {
     color: #FFEC2A;
@@ -34,7 +34,7 @@ a {
     line-height: 5px;
     position: relative;
     bottom: 5px;
-    left: 2;
+    left: 14;
 }
 img {
     position: relative;

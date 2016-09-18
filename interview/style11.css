@@ -29,16 +29,16 @@ a {
     text-decoration: none;
     font-family: Futura, sans-serif;
     text-align: center;
-    line-height: 50px;
-    padding: 650px;
     line-height: 5px;
+    padding: 650px;
     position: relative;
-    bottom: -26px;
+    bottom: -29px;
     left: 9;
 }
 img {
     position: relative;
-    bottom: -65px;
-    right: -30;
-    width: 60;
+    bottom: -75px;
+    right: -93;
+    width: 80;
+    height: 60;
 }
