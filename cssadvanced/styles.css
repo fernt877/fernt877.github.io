@@ -1,0 +1,44 @@
+body {
+    background-color: blue;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width:400px;
+}
+
+a: hover {
+    color:black;
+    font:100px;
+}
+
+
+.column {
+    background-color: red;
+    width:100px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding-left: 30px;
+    border: 20px dotted black;
+    margin:100px;
+    background-color: red;
+    border-radius: 100%;
+    position: fixed;
+    left: 40px;
+    z-index: 20px;
+    
+}

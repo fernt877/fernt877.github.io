@@ -1,0 +1,37 @@
+
+p {
+    color: #FFEC2A;
+    font-size: 85px;
+    font-weight: normal;
+    font-family: Futura;
+    margin: -200;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+p1 {
+    color: #FFEC2A;
+    font-size: 85px;
+    font-weight: normal;
+    font-family: Futura;
+    margin: -150;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+p2 {
+    color: #FFEC2A;
+    font-size: 85px;
+    font-weight: normal;
+    font-family: Futura;
+    margin: -150;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+#example1 {
+    position: relative;
+    bottom: -400px;
+    right: -470;
+    width: 500;
+}
