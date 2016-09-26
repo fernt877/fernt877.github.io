@@ -39,6 +39,17 @@ p2 {
     position: relative;
     bottom: 10px;
 }
+
+p3 {
+    color: #ffff00;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Futura;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 10px;
+}
 .special {
     color: orange;
 }

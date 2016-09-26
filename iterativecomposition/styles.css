@@ -1,0 +1,91 @@
+body {
+    background-image: haruko.gif;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1250px
+}
+
+p {
+	position: absolute;
+	font-size: 70px;
+	color:yellow;
+	margin: auto;
+	right:645px;
+	font-family: Futura;
+}
+
+#op {
+	background: blue;
+	position: absolute;
+	border: 20px solid;
+    width: 1445px;
+    top:-20;
+    left:-20;
+	}
+	
+#left {
+	background-color: yellow;
+	color:#fd00bf;
+	position:absolute;
+	width:0px;
+	top:-30;
+	border:50px double;
+    left:1335;
+    height:700px;
+	}
+	
+#right {
+	background-color: yellow;
+	color:#fd00bf;
+	position: absolute;
+	width:0px;
+	top:-30px;
+	border:5px dashed;
+    left:0;
+    height:900px;
+	}
+	
+#right1 {
+	background-color: yellow;
+	color:#fd00bf;
+	position: absolute;
+	width:0px;
+	top:0px;
+	border:3px dashed;
+    left: 25px;
+    height:900px;
+	}
+
+#right2 {
+	background-color: yellow;
+	color:#fd00bf;
+	position: absolute;
+	width:0px;
+	top:0px;
+	border:1px dashed;
+    left: 30px;
+    height:900px;
+	}
+	
+#right3 {
+	background-color: yellow;
+	color:#fd00bf;
+	position: absolute;
+	width:0px;
+	top:0px;
+	border:9px dashed;
+    left: 50px;
+    height:900px;
+}
+
+#right2 {
+	color:#fd00bf;
+	position: absolute;
+	width:0px;
+	top:0px;
+	border:2px dashed;
+    left: 84px;
+    height:900px;
+}
