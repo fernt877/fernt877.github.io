@@ -1,39 +1,33 @@
 body {
     background-image: haruko.gif;
-    background-color: pink;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1250px
+    background-size:90%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
 }
 
 p {
 	position: absolute;
-	font-size: 70px;
+	font-size: 500%;
+	background-color: black;
 	color:yellow;
 	margin: auto;
-	right:645px;
 	font-family: Futura;
 }
-
-#op {
-	background: blue;
-	position: fixed;
-	border: 20px solid;
-    width: 1445px;
-    top:-20;
-    left:-20;
-	}
 	
 #left {
-	background-color: yellow;
+	background-color: ;
 	color:#fd00bf;
-	position:fixed;
-	width:0px;
-	top:-30;
-	border:50px double;
-    left:1335;
-    height:900px;
-	}
+	position: fixed;
+	border:40px double;
+	left:80%;
+	top:0%;
+	height:90.5%;
+	width:auto\9;
+} 
 	
 #right {
 	background-color: yellow;
@@ -87,4 +81,25 @@ p {
 	border:2px dashed;
     left: 84px;
     height:900px;
+}
+
+#bottom {
+	background-color: yellow;
+	color:#fd00bf;
+	position:fixed;
+	border:20px solid;
+	width: 100%;
+	bottom:0px;
+	height: 10px;
+	left:0%;
+}
+
+#bespa {
+	position: fixed;
+	width:80%;
+	max-width: 100%;
+	top:70%;
+    height: auto;
+    width: auto\9;
+    left:0%;
 }
