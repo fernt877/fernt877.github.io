@@ -1,0 +1,247 @@
+body {
+    background-color: #252525;
+} 
+
+.contaner {
+    background-color:#E8A238;
+    width:15%;
+    height: 40%;
+    position:fixed;
+    left:50%;
+    bottom:0%;
+    box-shadow: 10px 10px 5px #888888;
+    border-right: 10px solid yellow;
+    border-left:10px solid yellow;
+    border-top:10px solid #21E0FF;
+    border-bottom: 10px #21E0FF;
+}
+
+.container:hover {
+    position:fixed;
+    width:5%;
+    height:10%;
+}
+
+.top {
+    background-color: white;
+    position: fixed;
+    top:0%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+.top:hoer {
+    background-color:red;
+    width:100%;
+    height:50%;
+}
+.line1 {
+    background-color: white;
+    position: fixed;
+    top:5%;
+    left: 0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line2 {
+    background-color: white;
+    position: fixed;
+    top:10%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line3 {
+    background-color: white;
+    position: fixed;
+    top:15%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line4 {
+    background-color: white;
+    position: fixed;
+    top:20%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line5 {
+    background-color: white;
+    position: fixed;
+    top:25%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line6 {
+    background-color: white;
+    position: fixed;
+    top:30%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line7 {
+    background-color: white;
+    position: fixed;
+    top:35%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line8 {
+    background-color: white;
+    position: fixed;
+    top:40%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line9 {
+    background-color: white;
+    position: fixed;
+    top:40%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line10 {
+    background-color: white;
+    position: fixed;
+    top: 55%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line11 {
+    background-color: white;
+    position: fixed;
+    top: 60%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line12 {
+    background-color: white;
+    position: fixed;
+    top:65%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line13 {
+    background-color: white;
+    position: fixed;
+    top:70%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line14 {
+    background-color: white;
+    position: fixed;
+    top:75%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line15 {
+    background-color: white;
+    position: fixed;
+    top:80%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line16 { 
+    background-color: white;
+    position: fixed;
+    top:85%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%; 
+}
+
+.line17 {
+    background-color: white;
+    position: fixed;
+    top:90%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line18 {
+    background-color: white;
+    position: fixed;
+    top:95%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.line19 {
+    color: white;
+    position: fixed;
+    bottom:0%;
+    left:0%;
+    border:10%;
+    width:100%;
+    height:1%;
+}
+
+.text {
+    position: fixed;
+    Font-family: Futura;
+    font-size: 60px;
+    color:transparent;
+    top:40%;
+    left:0%;
+    right:0%;
+    width:100%;
+    height:10%;
+}
+.text:hover{
+    background-color: white;
+    position: fixed;
+    color:#da0d0d;
+    height:15%;
+    overflow: scroll;
+}
+

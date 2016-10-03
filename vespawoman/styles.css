@@ -1,6 +1,6 @@
 body {
     background-image: haruko.gif;
-    background-color: white;
+    backgr ound-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size:90%;
@@ -98,8 +98,8 @@ p {
 	position: fixed;
 	width:80%;
 	max-width: 100%;
-	top:70%;
+	top:65%;
     height: auto;
     width: auto\9;
-    left:0%;
+    left:3%;
 }
