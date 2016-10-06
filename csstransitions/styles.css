@@ -1,0 +1,116 @@
+body {
+    background-color: blue;
+    background-image: url(mahoro.jpg)
+}
+
+.button {
+    display:block;
+    width:200px;
+    height:200px;
+    background-color:reds;
+    background-image: url(sprite.jpg)
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+.button: hover {
+    background-position: -100px 0;
+}
+
+.button:active {
+    background-position: -400px 0;
+}
+
+.container {
+    background-color:black;
+    width:200px;
+    height: 400px;
+    margin-bottom:100px;
+    position:relative;
+}
+
+.triangle {
+    width:0px;
+    background-color:lime;
+    border:20px solid red;
+    border-top:20px soild blue;
+    border-right:100px solid transparent;
+    border-left:100px solide transparent;
+    border-bottom:none;
+    position:absolute;
+    bottom:40px;
+    right:40px;
+    
+}
+
+.child {
+    width:40px;
+    height:40px;
+    background-color:yellow;
+    position: absolute;
+    bottom:40px;
+}
+
+.mycirlce {
+    width:100px;
+    height:100px;
+    background-color:blue;
+    position:relative;
+    top:20px;
+    left:40px;
+    border-radius:100%;
+}
+    
+.overflow {
+    margin-bottom:400px;
+    background-color:yellow;
+    color:black;
+    width:300px;
+    height:300px;
+    overflow:scroll;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.conainer {
+    width:400px;
+}
+
+a: hover {
+    color:black;
+    font:100px;
+}
+
+
+.column {
+    background-color: red;
+    width:100px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.cirlce:hover {
+    background-color: red;
+}
+
+di {
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding-left: 30px;
+    border: 20px dotted black;
+    margin:100px;
+    background-color: red;
+    border-radius: 100%;
+    position: fixed;
+    left: 40px;
+    z-index: 20px;
+    
+}
