@@ -8,8 +8,8 @@ body {
   top:80%;
   background-color: white;
   animation: 
-    pulse 1s ease infinite alternate, 
-    nudge 5s linear infinite alternate;
+    pulse 500ms ease infinite alternate, 
+    nudge 10s linear infinite alternate;
   border-radius: 100%;
   position: fixed;
   right:27%;
