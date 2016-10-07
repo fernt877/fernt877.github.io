@@ -46,7 +46,7 @@ body {
   top:80%;
   background-color: white;
   animation: 
-    pulse 10s linear infinite alternate, 
+    pulse 500ms linear infinite alternate, 
     nudge 20s linear infinite alternate;
   border-radius: 100%;
   position: fixed;
