@@ -1,0 +1,231 @@
+body {
+    background-color: #08E76F;
+}
+
+.element {
+  height: 150px;
+  width: 150px;
+  top:80%;
+  background-color: white;
+  animation: 
+    pulse 1s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+  border-radius: 100%;
+  position: fixed;
+  right:27%;
+  z-indez: -1000;
+  animation-delay: 10s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #FFB71E;
+  }
+  50% {
+    background-color: white;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(100, 100);
+  }
+  
+  50% {
+    transform: translate(150px, 1500%);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+.element2 {
+  height: 150px;
+  width: 150px;
+  top:80%;
+  background-color: white;
+  animation: 
+    pulse 10s linear infinite alternate, 
+    nudge 20s linear infinite alternate;
+  border-radius: 100%;
+  position: fixed;
+  right:17%;
+  z-index: -3000px;
+  animation-delay: 10s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #FFB71E;
+  }
+  50% {
+    background-color: white;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(100%, 100%);
+  }
+  
+  50% {
+    transform: translate(300px, 0px);
+  }
+  
+  80% {
+    transform: translate(-750px, 0);
+  }
+}
+
+p {
+    font-family: Futura;
+    color:white;
+    position:fixed;
+    font-size: 1300%;
+    bottom: -35%;
+    left:0%;
+    width: 100%;
+    height: 36.5%;
+}
+
+p1 {
+    font-family: Futura;
+    color:white;
+    position:fixed;
+    font-size: 250%;
+    top:9.2%;
+    left:100%;
+    width: 100%;
+    height: 50%;
+    animation:nudge 15s linear;
+    animation-delay: 3s;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0,0);
+  }
+  
+  80% {
+    transform: translate(-2000px,0px);
+  }
+}
+
+.audio {
+    color: red;
+    bottom: 0%;
+}
+
+.righteylash {
+    background-color: transparent;
+    transform: rotate(40deg);
+    width: 0%;
+	height: 0%;
+	border-left: 25px solid transparent;
+	border-right: 24px solid transparent;
+	border-bottom: 30px solid blue;
+    z-index: -3000;
+    bottom: 13%;
+    right:33.7%;
+    position:fixed
+}
+
+.lefteyeash {
+    background-color: transparent;
+    position:fixed;
+    transform: rotate(-40deg);
+    width: 0%;
+	height: 0%;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 30px solid blue;
+    z-index: -3000;
+    bottom: 13%;
+    right:9.1%;
+    position:fixed;
+}
+
+.line1 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 250%;
+    text-align: right;
+    background-color: white;
+    width:100%;
+    height:1%;
+    border:20%;
+    bottom:25%;
+    right:0%;
+    position: fixed;
+}
+
+.line2 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 400%;
+    text-align-last: justify;
+    background-color: white;
+    width:110%;
+    height:2%;
+    border:20%;
+    top:45%;
+    left:0%;
+    position: fixed;
+}
+
+.line3 {
+    background-color: white;
+    width:100%;
+    height:.5%;
+    border:20%;
+    bottom:35%;
+    right:0%;
+    position: fixed;
+}
+    
+.line4 {  
+    background-color: white;
+    width:100%;
+    height:.5%;
+    border:20%;
+    bottom:40%;
+    right:0%;
+    position: fixed;
+}
+
+.line5 {
+    background-color: white;
+    width:100%;
+    height:1%;
+    border:20%;
+    top:35%;
+    right:0%;
+    position: fixed;
+}
+
+.line6 {
+    background-color: white;
+    width:100%;
+    height:3%;
+    border:20%;
+    top:25%;
+    right:0%;
+    position: fixed; 
+}
+
+.line7 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:15%;
+    right:0%;
+    position: fixed;
+    animation-name: text3;
+    animation-iteration-count: infinite
+}
