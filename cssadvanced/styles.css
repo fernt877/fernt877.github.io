@@ -44,6 +44,29 @@ p {
     }
 }
 
+body {
+    margin:0;
+    font-size: 0;
+}
+
+.column {
+    display: inline-block;
+    background-color: yellow;
+    height:200px;
+    font-size: 40px;
+    width:25%;
+}
+
+
+.full {
+    background-color: blue;
+    height: 200px;
+    width:70%;
+    margin:0 auto;
+    border:100px 10px;
+    border-style: solid black;
+}
+
 .clock {
     width: 200px;
     height: 200px;
