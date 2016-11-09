@@ -84,6 +84,17 @@ p6 {
     bottom: 10px;
 }
 
+p7 {
+    color: #ffff00;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Futura;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 10px;
+}
+
 .special {
     color: orange;
 }

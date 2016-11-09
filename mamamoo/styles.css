@@ -1,6 +1,15 @@
 body {
     background-color: #08E76F;
-    margin:0;
+    height:5000%;
+}
+
+.boxbackground {
+  background-color: transparent;
+  height:6000px;
+  width:100%;
+  left:0%;
+  position: fixed;
+  overflow: scroll;
 }
 
 .element {
@@ -229,4 +238,271 @@ p1 {
     position: fixed;
     animation-name: text3;
     animation-iteration-count: infinite
+}
+
+.line8 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:120%;
+    height:5%;
+    border:20%;
+    bottom:-5%;
+    left:0%;
+    position: fixed;
+}
+
+.line9 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height: 5%;
+    border:20%;
+    top:-5%;
+    right:0%;
+    position: fixed;
+    overflow: scroll;
+}
+
+.line10 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line11 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line12 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line13 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line14 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line15 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line16 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line17 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line18 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line19 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line20 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line21 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line22 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line23 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line24 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line25 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
+}
+
+.line26 {
+    font-family: Futura;
+    color: #FFB71E;
+    font-size: 190%;
+    text-align:right;
+    background-color: white;
+    width:100%;
+    height:5%;
+    border:20%;
+    top:5%;
+    right:0%;
+    position: fixed;
 }
