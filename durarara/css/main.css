@@ -16,11 +16,6 @@ html {
     line-height: 1.4;
 }
 
-body {
-    background-color:white;
-}
-
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -239,6 +234,7 @@ textarea {
         content: " (" attr(title) ")";
     }
 
+
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -286,93 +282,46 @@ textarea {
     }
 }
 
-#sayHello {
-    font-size: 40px;
-    font-family: Futura;
+p {
+    font-family: futura;
+    font-size: 50px;
+    color:yellow;
     background-color: black;
+    position: fixed;
+    left:5%;
+    bottom:-15%;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
 }
 
-p1 {
-    font-family: futura;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 50px;
-    color: red;
-    top:10%;
-    left: 2%;
-    position: relative;
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
 }
 
-.spearmint {
-    font-family: futura;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 50px;
-    background-color: transparent;
-    color: white;
-    top:1%;
-    left: 22.8%;
-    position:absolute;
-}
-
-.smallcirlce {
-    background-color: white;
-    color:red;
-    height:10px;
-    width:10px;
-    border-radius:100%;
-    left:17.2%;
-    top:2.4%;
-    border: 3px dotted red;
-    animation-name:peppermint;
-    animation-duration: 20s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    z-index: 1000;
-    position: absolute;
-}
-
-.smallercirlce {
-    background-color: #03c535;
-    color:#03c535;
-    height:10px;
-    width:10px;
-    border-radius:100%;
-    left:34.7%;
-    top: 2.5%;
-    border: 3px dotted white;
-    animation-name:peppermint;
-    animation-duration: 20s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    position: absolute;
-}
-
-.circle {
-    background-color: white;
-    color:red;
-    text-align: center;
-    font-family: Futura;
-    font-size: 80px;
-    height:100px;
-    width:100px;
-    border-radius:100%;
-    border: 7px dotted red;
-    display: inline-block;
-    vertical-align: top;
-    margin:20px;
-    animation-name:peppermint;
-    animation-duration: 20s;
+.blob {
+    height:50px;
+    width:50px;
+    background-color: red;
+    border-radius: 100%;
+    display: list-item;
+    margin:10px;
+    animation-name:size;
+    animation-duration: 10s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes peppermint {
+@keyframes size {
     0%, 100% {
-        transform: rotate(0deg);
+        height: 50px;
+        width:50px;
+        background-color: red;
     }
     50% {
-        transform: rotate(360deg);
+        height: 200px;
+        width:200px;
+        background-color: pink;
         
     }
 }
