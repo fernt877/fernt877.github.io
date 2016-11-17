@@ -292,27 +292,40 @@ textarea {
     background-color: black;
 }
 
-p1 {
-    font-family: futura;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 50px;
-    color: red;
-    top:10%;
-    left: 2%;
-    position: relative;
-}
-
 .spearmint {
     font-family: futura;
     font-style: italic;
     font-weight: bolder;
     font-size: 50px;
     background-color: transparent;
-    color: #03c535;
+    color: transparent;
     top:1%;
     left: 22.8%;
     position:absolute;
+}
+
+.spearmint:hover {
+    background-color: transparent;
+    color:#03c535;
+    display: block;
+}
+
+.peppermint {
+    font-family: futura;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+    background-color: transparent;
+    color:transparent;
+    top:10%;
+    left: 2%;
+    position:relative;
+}
+
+.peppermint:hover {
+    background-color:transparent;
+    color:red;
+    display: block;
 }
 
 .smallcirlce {
@@ -323,6 +336,9 @@ p1 {
     border-radius:100%;
     left:17.2%;
     top:2.4%;
+    font-family: futura;
+    font-size: 50px;
+    color:red;
     border: 3px dotted red;
     animation-name:peppermint;
     animation-duration: 20s;
