@@ -309,7 +309,7 @@ p1 {
     font-weight: bolder;
     font-size: 50px;
     background-color: transparent;
-    color: white;
+    color: #03c535;
     top:1%;
     left: 22.8%;
     position:absolute;
@@ -341,11 +341,12 @@ p1 {
     left:34.7%;
     top: 2.5%;
     border: 3px dotted white;
-    animation-name:peppermint;
+    nimation-name:peppermint;
     animation-duration: 20s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
     position: absolute;
+    z-index: 10000;
 }
 
 .circle {
