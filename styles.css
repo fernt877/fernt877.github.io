@@ -41,7 +41,7 @@ p3 {
 
 .sept {
     width:100px;
-    height:80%;
+    height:81%;
     background-color:transparent;
     font-family:Futura;
     font-size: 70px;
@@ -55,7 +55,7 @@ p3 {
 
 .oct {
     width:100px;
-    height:80%;
+    height:81%;
     background-color:transparent;
     font-family:Futura;
     font-size: 70px;
@@ -69,7 +69,7 @@ p3 {
 
 .nov {
     width:100px;
-    height:80%;
+    height:81%;
     background-color:transparent;
     font-family:Futura;
     font-size: 70px;
@@ -82,30 +82,40 @@ p3 {
 }
 
 .line {
-    width:5px;
-    height:100%;
+    width:100%;
+    height:10px;
     position: fixed;
-    left:34.5%;
-    top:20%;
-    background-color: transparent;
+    left:0%;
+    top:0%;
+    background-color: white;
 }
 
 .line2 {
-    width:5px;
-    height:100%;
+    width:100%;
+    height:10px;
     position:fixed;
-    left:49%;
-    top:16%;
-    background-color: transparent;
+    left:0%;
+    bottom:0%;
+    background-color:white;
+    z-index: -10000;
 }
 
 .line3 {
-    width:5px;
+    width:10px;
     height:100%;
     position: fixed;
-    left:61.5%;
-    top:16%;
-    background-color: transparent;
+    left:0%;
+    top:0%;
+    background-color:white;
+}
+
+.line4 {
+    width:10px;
+    height:100%;
+    position: fixed;
+    right:0%;
+    top:0%;
+    background-color:white;
 }
 
 
