@@ -9,17 +9,111 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 body {
-    background-color:white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
 }
 
+p {
+    font-family:Futura;
+    color:black;
+    font-size: 50px;
+    position: fixed;
+    left:31%;
+    top:5%;
+}
+
+p2 {
+    font-family:Futura;
+    color:black;
+    font-size: 50px;
+    position: fixed;
+    left:46%;
+    top:10%;
+}
+
+p3 {
+    font-family:Futura;
+    color:black;
+    font-size: 50px;
+    position: fixed;
+    left:57.5%;
+    top:10%;
+}
+
+.sept {
+    width:100px;
+    height:85%;
+    background-color:transparent;
+    font-family:Futura;
+    font-size: 70px;
+    color: black;
+    position: fixed;
+    left:34%;
+    top:18%;
+    overflow: scroll;
+}
+
+
+.oct {
+    width:100px;
+    height:85%;
+    background-color:transparent;
+    font-family:Futura;
+    font-size: 70px;
+    color: black;
+    position: fixed;
+    left:47.5%;
+    top:16%;
+    overflow: scroll;
+}
+
+.nov {
+    width:100px;
+    height:85%;
+    background-color:transparent;
+    font-family:Futura;
+    font-size: 70px;
+    color: black;
+    position: fixed;
+    left:59.5%;
+    top:16%;
+    overflow: scroll;
+}
+
+.line {
+    width:5px;
+    height:100%;
+    position: fixed;
+    left:34.5%;
+    top:16%;
+    background-color: transparent;
+}
+
+.line2 {
+    width:5px;
+    height:100%;
+    position:fixed;
+    left:49%;
+    top:16%;
+    background-color: transparent;
+}
+
+.line3 {
+    width:5px;
+    height:100%;
+    position: fixed;
+    left:61.5%;
+    top:16%;
+    background-color: transparent;
+}
+
+
+a {
+color:blue;
+text-decoration:none;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -283,124 +377,5 @@ textarea {
     h2,
     h3 {
         page-break-after: avoid;
-    }
-}
-
-#sayHello {
-    font-size: 40px;
-    font-family: Futura;
-    background-color: black;
-}
-
-
-.spearmint {
-    font-family: futura;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 50px;
-    height:0%;
-    width:0%;
-    background-color: transparent;
-    color: transparent;
-    top:1%;
-    left: 22.8%;
-    position:absolute;
-}
-
-.spearmint:hover {
-    background-color: transparent;
-    color:#03c535;
-    display: block;
-}
-
-.peppermint {
-    font-family: futura;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 50px;
-    height:0%;
-    width:0%;
-    background-color: transparent;
-    color:transparent;
-    top:10%;
-    left: 2%;
-    position:relative;
-}
-
-.peppermint:hover {
-    background-color:transparent;
-    color:red;
-    display: block;
-}
-
-.smallcirlce {
-    background-color: white;
-    color:red;
-    height:10px;
-    width:10px;
-    border-radius:100%;
-    left:17.2%;
-    top:2.4%;
-    font-family: futura;
-    font-size: 50px;
-    color:red;
-    border: 3px dotted red;
-    animation-name:peppermint;
-    animation-duration: 20s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    z-index: 1000;
-    position: absolute;
-}
-
-.smallercirlce {
-    background-color: #03c535;
-    color:#03c535;
-    height:10px;
-    width:10px;
-    border-radius:100%;
-    left:34.7%;
-    top: 2.5%;
-    border: 3px dotted white;
-    nimation-name:peppermint;
-    animation-duration: 20s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    position: absolute;
-    z-index: 10000;
-}
-
-.circle {
-    background-color: white;
-    color:red;
-    text-align: center;
-    font-family: Futura;
-    font-size: 80px;
-    height:100px;
-    width:100px;
-    border-radius:100%;
-    border: 7px dotted red;
-    display: inline-block;
-    vertical-align: top;
-    margin:20px;
-    animation-name:peppermint;
-    animation-duration: 20s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-}
-
-.rando:hover {
-    background-color: yellow !important;
-    height:50px;
-    width:50px;
-}
-
-@keyframes peppermint {
-    0%, 100% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(360deg);
-        
     }
 }
