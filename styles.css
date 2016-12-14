@@ -120,10 +120,11 @@ p3 {
 
 
 a {
-color:white;
+color:#DE1968;
 text-decoration:none;
 }
 
-a:hover {
+a:
+hover {
     color:#DE1968;
 }
